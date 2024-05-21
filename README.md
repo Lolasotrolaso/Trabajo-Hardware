@@ -36,13 +36,13 @@ diseñado. Justifica el por qué de cada copia y su frecuencia.
 
 e. Simula los siguientes escenarios:
 
-    i. El lunes se modificaron erróneamente fichero1.txt y fichero2.txt y se crearon los ficheros fichero3.txt y fichero4.txt
+   - El lunes se modificaron erróneamente fichero1.txt y fichero2.txt y se crearon los ficheros fichero3.txt y fichero4.txt
 
-    ii. El martes se creó el fichero5.txt
+   - El martes se creó el fichero5.txt
 
-    iii. El miércoles se borro erróneamente fichero1.pdf y se crearon los ficheros otroFichero3.jpeg y otroFichero4.jpeg
+   - El miércoles se borro erróneamente fichero1.pdf y se crearon los ficheros otroFichero3.jpeg y otroFichero4.jpeg
 
-    iv. El jueves se borró erróneamente otroFichero1.jpg y se crearon los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
+   - El jueves se borró erróneamente otroFichero1.jpg y se crearon los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
 f. Realiza y documenta el proceso de restauración que llevarías a cabo el
 viernes tras caer en la cuenta de los errores generados durante la
