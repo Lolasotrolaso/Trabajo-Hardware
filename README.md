@@ -2,29 +2,6 @@
 1. Realiza los siguientes apartados relativos a Copia de Seguridad en Windows,
 documentando los apartados d y f:
 
-a. En un Windows 11 Pro instala el software “Paragon Backup & Recovery
-Community Edition”.
-
-b. Dedica unos minutos a familiarizarte con su interfaz e identifica cómo
-puedes: crear diferentes tipos de copias de seguridad (completa,
-incremental y diferencial), cómo programar la ejecución de las copias,
-cómo establecer copia de seguridad para todo el sistema, cómo
-establecer copia de seguridad para un conjunto de ficheros y directorios
-concreto, cómo puedes restaurar los datos que contiene una copia de
-seguridad, etc.
-
-c. Crea la siguiente estructura de ficheros y directorios en
-C:\Users\tuUsuario\Documents\:
-- [d] DatosBackup
-    - [d] Logs
-        - [f] ficheroLog1.txt
-        - [f] ficheroLog2.txt
-    - [f] fichero1.txt
-    - [f] fichero2.txt
-    - [f] fichero1.pdf
-    - [f] otroFichero1.jpeg
-    - [f] otroFichero2.jpeg
-
 d. Diseña y configura en “Paragon Backup & Recovery Community Edition” una
 política de backup que te permita mantener copia de seguridad diaria
 de todo el contenido del directorio “DatosBackup”, teniendo en cuenta
