@@ -1,4 +1,4 @@
-# Política de backup y sistemas RAID.
+# Política de backup Windows
 1. Realiza los siguientes apartados relativos a Copia de Seguridad en Windows,
 documentando los apartados d y f:
 
@@ -10,6 +10,16 @@ a copias y reducir el tiempo entre copias). Habrá que programar la
 ejecución de diferentes tipos de copia de seguridad. Indica de forma
 esquemática o empleando una tabla la política de backup que has
 diseñado. Justifica el por qué de cada copia y su frecuencia.
+
+Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche. Los nombres de las copias los pusimos de forma manual, ya que el programa no daba opción a hacerlo automáticamente.
+
+![Selección de Origen1](/img/1.jpg)
+![Selección de Origen2](/img/2.jpg)
+![Selección de Destino1](/img/3.jpg)
+![Selección de Frecuencia](/img/4.jpg)
+![Selección de Tipo](/img/5.jpg)
+![Selección de Contraseña](/img/6.jpg)
+
 
 e. Simula los siguientes escenarios:
 
@@ -29,7 +39,8 @@ con éxito todos los ficheros modificados/borrados erróneamente.
 necesarias para cumplir cada escenario y lanza manualmente la copia de
 seguridad que proceda en cada caso).
 
-Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche.
+
+# RAID Windows
 
 2. Realiza los siguientes apartados relativos a Sistemas RAID en Windows,
 documentando los apartados b, c, d, e y f:
@@ -55,6 +66,8 @@ un esquema o tabla que describa el comportamiento que ha tenido cada
 uno de los volúmenes tras la desconexión del segundo disco virtual.¿Cuál
 se ha comportado como un RAID0 y cuál como un RAID1?. Justifica tus
 respuestas.
+
+# RAID Linux
 
 3. Realiza los siguientes apartados relativos a Sistemas RAID en Ubuntu Linux,
 documentando los apartados b, c, d y f:
