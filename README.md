@@ -39,6 +39,17 @@ con éxito todos los ficheros modificados/borrados erróneamente.
 necesarias para cumplir cada escenario y lanza manualmente la copia de
 seguridad que proceda en cada caso).
 
+![Selección de tipo Backup](/img/7.jpg)
+![Selección de Backup1](/img/8.jpg)
+![Contraseña](/img/9.jpg)
+![Selección de Archivos1](/img/10.jpg)
+![Selección de destino](/img/11.jpg)
+![Selección de Rempazo](/img/12.jpg)
+![Selección de Backup2](/img/13.jpg)
+![Selección de Archivos2](/img/14.jpg)
+![Selección de Backup3](/img/15.jpg)
+![Selección de Archivos3](/img/16.jpg)
+![Resultado Final](/img/17.jpg)
 
 # RAID Windows
 
