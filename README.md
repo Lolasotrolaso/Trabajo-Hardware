@@ -1,4 +1,4 @@
-# Política de backup y sistemas RAID.
+# Política de backup Windows
 1. Realiza los siguientes apartados relativos a Copia de Seguridad en Windows,
 documentando los apartados d y f:
 
@@ -40,6 +40,7 @@ necesarias para cumplir cada escenario y lanza manualmente la copia de
 seguridad que proceda en cada caso).
 
 
+# RAID Windows
 
 2. Realiza los siguientes apartados relativos a Sistemas RAID en Windows,
 documentando los apartados b, c, d, e y f:
@@ -65,6 +66,8 @@ un esquema o tabla que describa el comportamiento que ha tenido cada
 uno de los volúmenes tras la desconexión del segundo disco virtual.¿Cuál
 se ha comportado como un RAID0 y cuál como un RAID1?. Justifica tus
 respuestas.
+
+# RAID Linux
 
 3. Realiza los siguientes apartados relativos a Sistemas RAID en Ubuntu Linux,
 documentando los apartados b, c, d y f:
