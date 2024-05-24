@@ -2,29 +2,6 @@
 1. Realiza los siguientes apartados relativos a Copia de Seguridad en Windows,
 documentando los apartados d y f:
 
-a. En un Windows 11 Pro instala el software “Paragon Backup & Recovery
-Community Edition”.
-
-b. Dedica unos minutos a familiarizarte con su interfaz e identifica cómo
-puedes: crear diferentes tipos de copias de seguridad (completa,
-incremental y diferencial), cómo programar la ejecución de las copias,
-cómo establecer copia de seguridad para todo el sistema, cómo
-establecer copia de seguridad para un conjunto de ficheros y directorios
-concreto, cómo puedes restaurar los datos que contiene una copia de
-seguridad, etc.
-
-c. Crea la siguiente estructura de ficheros y directorios en
-C:\Users\tuUsuario\Documents\:
-- [d] DatosBackup
-    - [d] Logs
-        - [f] ficheroLog1.txt
-        - [f] ficheroLog2.txt
-    - [f] fichero1.txt
-    - [f] fichero2.txt
-    - [f] fichero1.pdf
-    - [f] otroFichero1.jpeg
-    - [f] otroFichero2.jpeg
-
 d. Diseña y configura en “Paragon Backup & Recovery Community Edition” una
 política de backup que te permita mantener copia de seguridad diaria
 de todo el contenido del directorio “DatosBackup”, teniendo en cuenta
@@ -44,13 +21,15 @@ e. Simula los siguientes escenarios:
 
    - El jueves se borró erróneamente otroFichero1.jpg y se crearon los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
-f. Realiza y documenta el proceso de restauración que llevarías a cabo el
+f. Realiza y documenta el proceso de restauración que llevarías a cabo el 
 viernes tras caer en la cuenta de los errores generados durante la
 semana, simulados anteriormente. El proceso debe permitir recuperar
 con éxito todos los ficheros modificados/borrados erróneamente.
 (NOTA: En lugar de utilizar días de la semana reales, realiza las modificaciones
 necesarias para cumplir cada escenario y lanza manualmente la copia de
 seguridad que proceda en cada caso).
+
+Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche.
 
 2. Realiza los siguientes apartados relativos a Sistemas RAID en Windows,
 documentando los apartados b, c, d, e y f:
