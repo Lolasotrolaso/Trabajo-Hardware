@@ -11,6 +11,8 @@ ejecución de diferentes tipos de copia de seguridad. Indica de forma
 esquemática o empleando una tabla la política de backup que has
 diseñado. Justifica el por qué de cada copia y su frecuencia.
 
+Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche.
+
 e. Simula los siguientes escenarios:
 
    - El lunes se modificaron erróneamente fichero1.txt y fichero2.txt y se crearon los ficheros fichero3.txt y fichero4.txt
@@ -29,7 +31,7 @@ con éxito todos los ficheros modificados/borrados erróneamente.
 necesarias para cumplir cada escenario y lanza manualmente la copia de
 seguridad que proceda en cada caso).
 
-Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche.
+
 
 2. Realiza los siguientes apartados relativos a Sistemas RAID en Windows,
 documentando los apartados b, c, d, e y f:
