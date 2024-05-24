@@ -21,13 +21,15 @@ e. Simula los siguientes escenarios:
 
    - El jueves se borró erróneamente otroFichero1.jpg y se crearon los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
-f. Realiza y documenta el proceso de restauración que llevarías a cabo el
+f. Realiza y documenta el proceso de restauración que llevarías a cabo el 
 viernes tras caer en la cuenta de los errores generados durante la
 semana, simulados anteriormente. El proceso debe permitir recuperar
 con éxito todos los ficheros modificados/borrados erróneamente.
 (NOTA: En lugar de utilizar días de la semana reales, realiza las modificaciones
 necesarias para cumplir cada escenario y lanza manualmente la copia de
 seguridad que proceda en cada caso).
+
+Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche.
 
 2. Realiza los siguientes apartados relativos a Sistemas RAID en Windows,
 documentando los apartados b, c, d, e y f:
