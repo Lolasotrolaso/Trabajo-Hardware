@@ -13,6 +13,14 @@ diseñado. Justifica el por qué de cada copia y su frecuencia.
 
 Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche. Los nombres de las copias los pusimos de forma manual, ya que el programa no daba opción a hacerlo automáticamente.
 
+![Selección de Origen1](/img/1.jpg)
+![Selección de Origen2](/img/2.jpg)
+![Selección de Destino1](/img/3.jpg)
+![Selección de Frecuencia](/img/4.jpg)
+![Selección de Tipo](/img/5.jpg)
+![Selección de Contraseña](/img/6.jpg)
+
+
 e. Simula los siguientes escenarios:
 
    - El lunes se modificaron erróneamente fichero1.txt y fichero2.txt y se crearon los ficheros fichero3.txt y fichero4.txt
