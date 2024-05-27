@@ -11,6 +11,7 @@ ejecución de diferentes tipos de copia de seguridad. Indica de forma
 esquemática o empleando una tabla la política de backup que has
 diseñado. Justifica el por qué de cada copia y su frecuencia.
 
+## Creacion de Backups
 Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. La política que decidimos aplicar será diaria y comenzaría a las 10 de la noche, de tipo incremental (del domingo hasta el viernes incluido, 6 copias incrementales en total durante la semana). El sábado se realizaría la copia completa a las 10 de la noche. Los nombres de las copias los pusimos de forma manual, ya que el programa no daba opción a hacerlo automáticamente.
 
 ![Selección de Origen1](/img/1.jpg)
@@ -31,24 +32,61 @@ e. Simula los siguientes escenarios:
 
    - El jueves se borró erróneamente otroFichero1.jpg y se crearon los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
-f. Realiza y documenta el proceso de restauración que llevarías a cabo el 
-viernes tras caer en la cuenta de los errores generados durante la
-semana, simulados anteriormente. El proceso debe permitir recuperar
-con éxito todos los ficheros modificados/borrados erróneamente.
-(NOTA: En lugar de utilizar días de la semana reales, realiza las modificaciones
-necesarias para cumplir cada escenario y lanza manualmente la copia de
-seguridad que proceda en cada caso).
+## Restauración de Backups
+Para restaurar una backup iremos a la pestaña de restore backup y selecionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archibos en especifico ya que sabemos que archivos se modificaron erroneamente.
 
 ![Selección de tipo Backup](/img/7.jpg)
+
+Selecionamos a carpeta del domingo para poder recumerar los archivos que se modificaron erroneamente el lunes.
+
 ![Selección de Backup1](/img/8.jpg)
+
+Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad encripta las copias de seguridad.
+
 ![Contraseña](/img/9.jpg)
+
+Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erroneamente y cuando fue esa madificcación.
+
 ![Selección de Archivos1](/img/10.jpg)
+
+Selecionaremos donde se restauraran los archivos.
+
 ![Selección de destino](/img/11.jpg)
+
+Debido a que los archivos que se modificaron no se eliminaron nos saldra que eses archivos ya se encuentran en ese directorio por lo que tendremos que selecionar la opcion de aply for all para que se aplique la opcion de replace a todos los archivos que queremos restaurar.
+
 ![Selección de Rempazo](/img/12.jpg)
+
+Selecionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el miercoles.
+
 ![Selección de Backup2](/img/13.jpg)
+
+Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad encripta las copias de seguridad.
+
+![Contraseña](/img/9.jpg)
+
+Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa madificcación.
+
 ![Selección de Archivos2](/img/14.jpg)
+
+Selecionaremos donde se restauraran los archivos.
+
+![Selección de destino](/img/11.jpg)
+
+Selecionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el jueves.
+
 ![Selección de Backup3](/img/15.jpg)
+
+Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad encripta las copias de seguridad.
+
+![Contraseña](/img/9.jpg)
+
+Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa madificcación.
+
 ![Selección de Archivos3](/img/16.jpg)
+
+Y por ultimo como se puede ver en la siguiente imagen se recupero los archivos que se borraron y modificaron erroneamente
+
 ![Resultado Final](/img/17.jpg)
 
 # RAID Windows
