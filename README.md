@@ -126,9 +126,15 @@ herramienta MDADM y configura lo siguiente:
 
 b. Un RAID 0 que utilice dos discos virtuales de 10 GB cada uno.
 
+      mdadm --create /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
+
 c. Un RAID 1 que utilice dos discos virtuales de 10 GB cada uno.
 
+      mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
+
 d. Un RAID 5 que utilice tres discos virtuales de 10 GB cada uno.
+
+      mdadm --create /dev/md0 --level=5 --raid-devices=2 /dev/sdb /dev/sdc /dev/sdd
 
 e. Una vez creada cada unidad RAID, copia algunos ficheros dentro de ella,
 desconecta uno de los discos virtuales que la forman y comprueba qué ha
