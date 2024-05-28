@@ -85,7 +85,7 @@ Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron lo
 
 ![Selección de Archivos3](/img/16.jpg)
 
-Y por ultimo como se puede ver en la siguientes imagenes se recupero los archivos que se borraron y modificaron erroneamente
+Y por ultimo como se puede ver en la siguientes imagenes se recupero los archivos que se borraron y modificaron erroneamente.
 
 ![Resultado Final](/img/17.jpg)
 
@@ -93,7 +93,7 @@ Y por ultimo como se puede ver en la siguientes imagenes se recupero los archivo
 
 # RAID Windows
 
-En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que pertenece a un RAID en Windows
+En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que pertenece a un RAID en Windows.
 
 ## Volumen Simple
 
@@ -109,9 +109,13 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Simple](/img/21.jpg)
 
-Y por ultimo son pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuracion selecionada.
 
 ![Final Simple](/img/22.jpg)
+
+Y por ultimo añadiremos Datos al Volumen.
+
+![Añadir Datos](/img/35.jpg)
 
 ## Volumen Distribuido
 
@@ -127,9 +131,13 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Distribuido](/img/25.jpg)
 
-Y por ultimo son pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuracion selecionada.
 
 ![Final Distribuido](/img/26.jpg)
+
+Y por ultimo añadiremos Datos al Volumen.
+
+![Añadir Datos](/img/35.jpg)
 
 ## Volumen Seccionado
 
@@ -145,9 +153,13 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Seccionado](/img/29.jpg)
 
-Y por ultimo son pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuracion selecionada.
 
 ![Final Seccionado](/img/30.jpg)
+
+Y por ultimo añadiremos Datos al Volumen.
+
+![Añadir Datos](/img/35.jpg)
 
 ## Volumen Reflejado
 
@@ -163,11 +175,21 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Reflejado](/img/33.jpg)
 
-Y por ultimo son pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuracion selecionada.
 
 ![Final Reflejado](/img/34.jpg)
 
+Y por ultimo añadiremos Datos al Volumen.
+
+![Añadir Datos](/img/35.jpg)
+
 ## Comportamiento de los RAIDs despues del fallo de un disco
+
+Tras un fallo de en un disco el administrador de discos tendra un error en los volumenes a excepción del Volumen Simple y ya no aparecera ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imagenes y en la tabla a continuación.
+
+![Discos Fallo1](/img/36.jpg)
+
+![Discos Fallo2](/img/37.jpg)
 
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
@@ -178,13 +200,33 @@ Y por ultimo son pondra un resumen de la configuracion selecionada.
 
 # RAID Linux
 
-En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que pertenece a un RAID en Linux
+En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que pertenece a un RAID en Linux.
 
 ## RAID 0
+
+![Ver Discos](/img/38.jpg)
+
+![Crear RAID](/img/39.jpg)
+
+![Formateo Disco](/img/43.jpg)
+
+![Añadir Datos](/img/40.jpg)
+
+![Fallo Disco](/img/41.jpg)
 
       mdadm --create /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
 
 ## RAID 1
+
+![Ver Discos](/img/38.jpg)
+
+![Crear RAID](/img/42.jpg)
+
+![Formateo Disco](/img/43.jpg)
+
+![Añadir Datos](/img/44.jpg)
+
+![Fallo Disco](/img/45.jpg)
 
       mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
 
@@ -193,6 +235,8 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
       mdadm --create /dev/md0 --level=5 --raid-devices=2 /dev/sdb /dev/sdc /dev/sdd
 
 ## Comportamiento de los RAIDs despues del fallo de un disco
+
+Tras un fallo de en un disco el administrador de discos tendra un error en los volumenes a excepción del Volumen Simple y ya no aparecera ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imagenes y en la tabla a continuación.
 
 |   | RAID 0  | RAID 1   | RAID 5  | 
 | ------- | -------- | -------- | -------- |
