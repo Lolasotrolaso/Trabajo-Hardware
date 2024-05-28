@@ -119,7 +119,7 @@ respuestas.
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
 | Disponibilidad de la informacion  |  Si    |    No   |    No   |     Si    |
-|  Velocidad   | Normal |  Doble de rapido aprox |  Doble de rapido aprox | Normal |
+|  Velocidad   | Normal |  Doble de rapido (aprox) |  Doble de rapido (aprox) | Normal |
 | Comportamiento |  No es un RAID   |   RAID 0: porque divide la información entre los dos discos  |   RAID 0: porque divide la información entre los dos discos    |    RAID 1: realiza una copia exacta de la información en el segundo disco   | 
 
 
