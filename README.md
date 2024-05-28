@@ -85,36 +85,89 @@ Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron lo
 
 ![Selección de Archivos3](/img/16.jpg)
 
-Y por ultimo como se puede ver en la siguiente imagen se recupero los archivos que se borraron y modificaron erroneamente
+Y por ultimo como se puede ver en la siguientes imagenes se recupero los archivos que se borraron y modificaron erroneamente
 
 ![Resultado Final](/img/17.jpg)
 
+![Resultado Final2](/img/18.jpg)
+
 # RAID Windows
 
-2. Realiza los siguientes apartados relativos a Sistemas RAID en Windows,
-documentando los apartados b, c, d, e y f:
+En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que pertenece a un RAID en Windows
 
-a. En una máquina virtual que tenga instalado Windows 11 Education Pro,
-crea dos nuevos discos virtuales de 10 GB cada uno. Una vez arrancado
-Windows, utilizando la herramienta “Administración de discos”, inicializa
-cada uno de los dos discos como “Disco Dinámico” y realiza lo siguiente:
+## Volumen Simple
 
-b. Crea un volumen simple de 1 GB.
+Para crear un Volumen Simple en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos el tamaño del volumen.
 
-c. Crea un volumen distribuido en dos discos (1 GB y 2 GB,
-respectivamente).
+![Tamaño Simple](/img/19.jpg)
 
-d. Crea un volumen seccionado formado por dos discos de 4 GB cada uno.
+A continuación selecionaremos la letra que se asignara al Volumen.
 
-e. Crea un volumen reflejado de 4 GB.
+![Letra Simple](/img/20.jpg)
 
-f. Copia algunos ficheros dentro de cada uno de los diferentes volúmenes
-creados, desconecta el segundo disco virtual e indica qué ha pasado con
-esos datos (si están disponibles o no) en cada uno de los volúmenes. Crea
-un esquema o tabla que describa el comportamiento que ha tenido cada
-uno de los volúmenes tras la desconexión del segundo disco virtual.¿Cuál
-se ha comportado como un RAID0 y cuál como un RAID1?. Justifica tus
-respuestas.
+Selecionaremos que formato en el que queremos formatear el volumen.
+
+![Formateo Simple](/img/21.jpg)
+
+Y por ultimo son pondra un resumen de la configuracion selecionada.
+
+![Final Simple](/img/22.jpg)
+
+## Volumen Distribuido
+
+Para crear un Volumen Distribuido en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+
+![Tamaño Distribuido](/img/23.jpg)
+
+A continuación selecionaremos la letra que se asignara al Volumen.
+
+![Letra Distribuido](/img/24.jpg)
+
+Selecionaremos que formato en el que queremos formatear el volumen.
+
+![Formateo Distribuido](/img/25.jpg)
+
+Y por ultimo son pondra un resumen de la configuracion selecionada.
+
+![Final Distribuido](/img/26.jpg)
+
+## Volumen Seccionado
+
+Para crear un Volumen Seccionado en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+
+![Tamaño Seccionado](/img/27.jpg)
+
+A continuación selecionaremos la letra que se asignara al Volumen.
+
+![Letra Seccionado](/img/28.jpg)
+
+Selecionaremos que formato en el que queremos formatear el volumen.
+
+![Formateo Seccionado](/img/29.jpg)
+
+Y por ultimo son pondra un resumen de la configuracion selecionada.
+
+![Final Seccionado](/img/30.jpg)
+
+## Volumen Reflejado
+
+Para crear un Volumen Reflejado en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+
+![Tamaño Reflejado](/img/31.jpg)
+
+A continuación selecionaremos la letra que se asignara al Volumen.
+
+![Letra Reflejado](/img/32.jpg)
+
+Selecionaremos que formato en el que queremos formatear el volumen.
+
+![Formateo Reflejado](/img/33.jpg)
+
+Y por ultimo son pondra un resumen de la configuracion selecionada.
+
+![Final Reflejado](/img/34.jpg)
+
+## Comportamiento de los RAIDs despues del fallo de un disco
 
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
@@ -125,31 +178,21 @@ respuestas.
 
 # RAID Linux
 
-3. Realiza los siguientes apartados relativos a Sistemas RAID en Ubuntu Linux,
-documentando los apartados b, c, d y f:
-a. En una máquina virtual que tenga instalado Ubuntu Linux, crea tres
-nuevos discos virtuales de 10 GB cada uno. Investiga sobre el uso de la
-herramienta MDADM y configura lo siguiente:
+En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que pertenece a un RAID en Linux
 
-b. Un RAID 0 que utilice dos discos virtuales de 10 GB cada uno.
+## RAID 0
 
       mdadm --create /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
 
-c. Un RAID 1 que utilice dos discos virtuales de 10 GB cada uno.
+## RAID 1
 
       mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
 
-d. Un RAID 5 que utilice tres discos virtuales de 10 GB cada uno.
+## RAID 5
 
       mdadm --create /dev/md0 --level=5 --raid-devices=2 /dev/sdb /dev/sdc /dev/sdd
 
-e. Una vez creada cada unidad RAID, copia algunos ficheros dentro de ella,
-desconecta uno de los discos virtuales que la forman y comprueba qué ha
-pasado con esos datos.
-
-f. Crea un esquema o tabla que describa el comportamiento que ha tenido
-cada una de las unidades RAID creadas: discos necesarios, espacio
-disponible, tolerancia al fallo de un disco, etc.
+## Comportamiento de los RAIDs despues del fallo de un disco
 
 |   | RAID 0  | RAID 1   | RAID 5  | 
 | ------- | -------- | -------- | -------- |
