@@ -150,3 +150,10 @@ pasado con esos datos.
 f. Crea un esquema o tabla que describa el comportamiento que ha tenido
 cada una de las unidades RAID creadas: discos necesarios, espacio
 disponible, tolerancia al fallo de un disco, etc.
+
+|   | RAID 0  | RAID 1   | RAID 5  | 
+| ------- | -------- | -------- | -------- |
+| Disponibilidad de la informacion  | No  |   Si   |   Si  |
+| Discos necesarios   | 2 discos mínimo |  2 discos mínimo (en pares) |  3 discos mínimo  | 
+| Espacio disponible |  100% del espacio  |  50% del espacio  |  67% del espacio  |
+| Tolerancia de fallo |  No   |   Si, 1 disco  |  Si, 1 disco  |
