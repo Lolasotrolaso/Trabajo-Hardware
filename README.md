@@ -7,7 +7,7 @@ política de backup que te permita mantener copia de seguridad diaria
 de todo el contenido del directorio “DatosBackup”, teniendo en cuenta
 las recomendaciones estudiadas en clase (optimizar el espacio dedicado
 a copias y reducir el tiempo entre copias). Habrá que programar la
-ejecución de diferentes tipos de copia de seguridad. Indica de forma
+ejecución de diferentes tipos de copia de seguridad. Indica de forma 
 esquemática o empleando una tabla la política de backup que has
 diseñado. Justifica el por qué de cada copia y su frecuencia.
 
@@ -119,6 +119,9 @@ respuestas.
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
 | Texto   | Texto    | Texto    | Texto    | Texto    |
+
+
+😎
 
 
 # RAID Linux
