@@ -116,6 +116,11 @@ uno de los volúmenes tras la desconexión del segundo disco virtual.¿Cuál
 se ha comportado como un RAID0 y cuál como un RAID1?. Justifica tus
 respuestas.
 
+|   | Simple   | Distribuido   | Seccionado   | Reflejado   |
+| ------- | -------- | -------- | -------- | -------- |
+| Texto   | Texto    | Texto    | Texto    | Texto    |
+
+
 # RAID Linux
 
 3. Realiza los siguientes apartados relativos a Sistemas RAID en Ubuntu Linux,
