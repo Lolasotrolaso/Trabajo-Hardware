@@ -118,7 +118,9 @@ respuestas.
 
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
-| Texto   | No presenta error al ser simple. Se pueden ver los archivos. | Al desconectar el segundo disco presentó un error.   | Al desconectar el segundo disco presentó un error.   | Al desconectar el segundo disco presentó un error por redundancia. Se pueden ver los archivos. |
+| Visualizacion de la informacion  |  Si    |    No   |    No   |     Si    |
+|  Velocidad   | Normal |  Doble de rapido aprox |  Doble de rapido aprox | Normal |
+| Comportamiento |  No es un RAID   |   RAID 0: porque divide la información entre los dos discos  |   RAID 0: porque divide la información entre los dos discos    |    RAID 1: realiza una copia exacta de la información en el segundo disco   | 
 
 
 # RAID Linux
