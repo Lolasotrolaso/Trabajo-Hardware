@@ -118,10 +118,7 @@ respuestas.
 
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
-| Texto   | Texto    | Texto    | Texto    | Texto    |
-
-
-😎
+| Texto   | No presenta error al ser simple   | Al desconectar el segundo disco presentó un error    | Al desconectar el segundo disco presentó un error   | Al desconectar el segundo disco presentó un error por redundancia   |
 
 
 # RAID Linux
