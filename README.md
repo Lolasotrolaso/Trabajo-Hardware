@@ -233,6 +233,8 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
 ## RAID 5
 
       mdadm --create /dev/md0 --level=5 --raid-devices=2 /dev/sdb /dev/sdc /dev/sdd
+      o
+      sudo mdadm -C /dev/md0 -l raid5 -n 3 /dev/sd[b-d]1
 
 ## Comportamiento de los RAIDs despues del fallo de un disco
 
