@@ -33,11 +33,11 @@ e. Simula los siguientes escenarios:
    - El jueves se borró erróneamente otroFichero1.jpg y se crearon los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
 ## Restauración de Backups
-Para restaurar una backup iremos a la pestaña de restore backup y selecionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archibos en especifico ya que sabemos que archivos se modificaron erroneamente.
+Para restaurar una backup iremos a la pestaña de restore backup y selecionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archivos en especifico ya que sabemos que archivos se modificaron erroneamente.
 
 ![Selección de tipo Backup](/img/7.jpg)
 
-Selecionamos a carpeta del domingo para poder recumerar los archivos que se modificaron erroneamente el lunes.
+Selecionamos la carpeta del domingo para poder recuperar los archivos que se modificaron erroneamente el lunes.
 
 ![Selección de Backup1](/img/8.jpg)
 
@@ -45,7 +45,7 @@ Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad 
 
 ![Contraseña](/img/9.jpg)
 
-Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erroneamente y cuando fue esa madificcación.
+Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erroneamente y cuando fue esa modificación.
 
 ![Selección de Archivos1](/img/10.jpg)
 
@@ -65,7 +65,7 @@ Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad 
 
 ![Contraseña](/img/9.jpg)
 
-Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa madificcación.
+Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
 
 ![Selección de Archivos2](/img/14.jpg)
 
@@ -81,7 +81,7 @@ Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad 
 
 ![Contraseña](/img/9.jpg)
 
-Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa madificcación.
+Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
 
 ![Selección de Archivos3](/img/16.jpg)
 
