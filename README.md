@@ -155,5 +155,5 @@ disponible, tolerancia al fallo de un disco, etc.
 | ------- | -------- | -------- | -------- |
 | Disponibilidad de la informacion  | No  |   Si   |   Si  |
 | Discos necesarios   | 2 discos mínimo |  2 discos mínimo (en pares) |  3 discos mínimo  | 
-| Espacio disponible |  100% del espacio  |  50% del espacio  |  67% del espacio  |
+| Espacio disponible |   |   |    |
 | Tolerancia de fallo |  No   |   Si, 1 disco  |  Si, 1 disco  |
