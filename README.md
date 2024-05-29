@@ -41,7 +41,7 @@ Selecionamos la carpeta del domingo para poder recuperar los archivos que se mod
 
 ![Selección de Backup1](/img/8.jpg)
 
-Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad encripta las copias de seguridad.
+Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad encripta las copias de seguridad.
 
 ![Contraseña](/img/9.jpg)
 
