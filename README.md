@@ -238,7 +238,6 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
 
 ## Comportamiento de los RAIDs despues del fallo de un disco
 
-Tras un fallo de en un disco el administrador de discos tendra un error en los volumenes a excepción del Volumen Simple y ya no aparecera ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imagenes y en la tabla a continuación.
 
 |   | RAID 0  | RAID 1   | RAID 5  | 
 | ------- | -------- | -------- | -------- |
