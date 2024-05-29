@@ -61,7 +61,7 @@ Selecionamos a carpeta del martes para poder recumerar los archivos que se modif
 
 ![Selección de Backup2](/img/13.jpg)
 
-Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad encripta las copias de seguridad.
+Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad encripta las copias de seguridad.
 
 ![Contraseña](/img/9.jpg)
 
@@ -77,7 +77,7 @@ Selecionamos a carpeta del martes para poder recumerar los archivos que se modif
 
 ![Selección de Backup3](/img/15.jpg)
 
-Escribimos la contraseña ya que pusismos una opcion que por temas de seguridad encripta las copias de seguridad.
+Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad encripta las copias de seguridad.
 
 ![Contraseña](/img/9.jpg)
 
