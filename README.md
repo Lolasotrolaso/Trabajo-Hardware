@@ -1,4 +1,4 @@
-## Creacion de Backups y Política de Backups
+## Creación de Backups y Política de Backups
 Para poder realizar las copias y su restauración, primero creamos nuestra carpeta DatosBackup y añadimos los ficheros con los que trabajaremos. Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
 
 ![Selección de Origen1](/img/1.jpg)
@@ -155,7 +155,7 @@ Y por ultimo añadiremos Datos al Volumen.
 
 ## Volumen Reflejado
 
-Para crear un Volumen Reflejado en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+Para crear un Volumen Reflejado en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y seleccionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
 
 ![Tamaño Reflejado](/img/31.jpg)
 
