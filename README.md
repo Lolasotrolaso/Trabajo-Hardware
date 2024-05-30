@@ -1,5 +1,7 @@
 # Trabajo UD7
 
+En este trabajo exploramos el manejo de discos en RAIDs y la disponibilidad de la información que contienen, ademas de la protección de la información mediante Politicas de backups.
+
 ## Creación de Backups y Política de Backups
 Para poder realizar las copias y su restauración, primero creamos nuestra carpeta DatosBackup y añadimos los ficheros con los que trabajaremos. Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
 
@@ -252,11 +254,11 @@ A continuación ya sabiendo el nombre de los discos ejecutaremos el comando most
 
       sudo mdadm -C /dev/md0 -l raid5 -n 3 /dev/sd[b-d]1
 
-![Añadir Datos](/img/45.jpg)
+![Crear RAID](/img/46.jpg)
 
 Después Formateamos el disco en NTFS.
 
-![Añadir Datos](/img/46.jpg)
+![Formateo Disco](/img/45.jpg)
 
 Le añadimos la información que queramos guardar en el RAID.
 
