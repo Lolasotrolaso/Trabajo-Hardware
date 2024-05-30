@@ -11,7 +11,7 @@ ejecución de diferentes tipos de copia de seguridad. Indica de forma
 esquemática o empleando una tabla la política de backup que has
 diseñado. Justifica el por qué de cada copia y su frecuencia.
 
-## Creacion de Backups
+## Creacion de Backups y Política de Backups
 Para poder realizar las copias y su restauración, primero creamos nuestra carpeta DatosBackup y añadimos los ficheros con los que trabajaremos. Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
 
 ![Selección de Origen1](/img/1.jpg)
