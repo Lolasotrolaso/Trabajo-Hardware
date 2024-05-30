@@ -222,7 +222,7 @@ Y al fallar un disco al ser un RAID 0 habremos perdido la información almacenad
 
 ## RAID 1
 
-Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb y sdc.
+Lo primero que tendremos que hacer es usar el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb y sdc.
 
 ![Ver Discos](/img/38.jpg)
 
@@ -244,7 +244,7 @@ Y al fallar un disco al ser un RAID 1 podremos continuar accediendo a la informa
 
 ## RAID 5
 
-Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb, sdc y sdd.
+Lo primero que tendremos que hacer es usar el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb, sdc y sdd.
 
 ![Ver Discos](/img/38.jpg)
 
