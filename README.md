@@ -101,7 +101,7 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Simple](/img/21.jpg)
 
-Al final de la configuración pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuración selecionada.
 
 ![Final Simple](/img/22.jpg)
 
@@ -111,23 +111,23 @@ Y por último añadiremos Datos al Volumen.
 
 ## Volumen Distribuido
 
-Para crear un Volumen Distribuido en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+Para crear un Volumen Distribuido en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y seleccionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
 
 ![Tamaño Distribuido](/img/23.jpg)
 
-A continuación selecionaremos la letra que se asignara al Volumen.
+A continuación selecionaremos la letra que se asignará al Volumen.
 
 ![Letra Distribuido](/img/24.jpg)
 
-Selecionaremos que formato en el que queremos formatear el volumen.
+Seleccionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Distribuido](/img/25.jpg)
 
-Al final de la configuración pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuración seleccionada.
 
 ![Final Distribuido](/img/26.jpg)
 
-Y por ultimo añadiremos Datos al Volumen.
+Y por último añadiremos Datos al Volumen.
 
 ![Añadir Datos](/img/35.jpg)
 
