@@ -163,7 +163,7 @@ A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Reflejado](/img/32.jpg)
 
-Selecionaremos que formato en el que queremos formatear el volumen.
+Seleccionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Reflejado](/img/33.jpg)
 
