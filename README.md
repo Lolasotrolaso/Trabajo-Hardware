@@ -250,7 +250,25 @@ Y al fallar un disco al ser un RAID 1 podremos continuar accediendo a la informa
 
 ## RAID 5
 
+Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb, sdc y sdd.
+
+![Ver Discos](/img/38.jpg)
+
+A continuacion ya sabiendo el nombre de los discos ejecutaremos el comando mostrado acontinuación donde despues de --create /dev/ pondremos el nombre que queremos utilizar en el raid, despues de --level= pondremos el nivel del raid que en este caso es 5 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
+
       sudo mdadm -C /dev/md0 -l raid5 -n 3 /dev/sd[b-d]1
+
+![Añadir Datos](/img/45.jpg)
+
+Despues Formatearemos el disco en NTFS.
+
+![Añadir Datos](/img/46.jpg)
+
+Le añadimos la informacion que queramos guardar en el RAID.
+
+![Añadir Datos](/img/47.jpg)
+
+Y al fallar un disco al ser un RAID 5 podremos continuar accediendo a la información almacenada.
 
 ## Comportamiento de los RAIDs despues del fallo de un disco
 
