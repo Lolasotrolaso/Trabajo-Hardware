@@ -25,11 +25,11 @@ Simulamos los siguientes escenarios:
 
    - El jueves borramos erróneamente otroFichero1.jpg y creamos los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
-Para restaurar una backup iremos a la pestaña de restore backup y selecionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archivos en especifico ya que sabemos que archivos se modificaron erroneamente.
+Para restaurar una backup iremos a la pestaña de restore backup y seleccionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archivos en especifico ya que sabemos que archivos se modificaron erroneamente.
 
 ![Selección de tipo Backup](/img/7.jpg)
 
-Selecionamos la carpeta del domingo para poder recuperar los archivos que se modificaron erroneamente el lunes.
+Seleccionamos la carpeta del domingo para poder recuperar los archivos que se modificaron erroneamente el lunes.
 
 ![Selección de Backup1](/img/8.jpg)
 
@@ -37,47 +37,47 @@ Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad e
 
 ![Contraseña](/img/9.jpg)
 
-Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erroneamente y cuando fue esa modificación.
+Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erroneamente y cuando fue esa modificación.
 
 ![Selección de Archivos1](/img/10.jpg)
 
-Selecionaremos donde se restauraran los archivos.
+Seleccionaremos donde se restauraran los archivos.
 
 ![Selección de destino](/img/11.jpg)
 
-Debido a que los archivos que se modificaron no se eliminaron nos saldra que eses archivos ya se encuentran en ese directorio por lo que tendremos que selecionar la opcion de aply for all para que se aplique la opcion de replace a todos los archivos que queremos restaurar.
+Debido a que los archivos que se modificaron no se eliminaron nos saldrá que eses archivos ya se encuentran en ese directorio por lo que tendremos que seleccionar la opción de apply for all para que se aplique la opción de replace a todos los archivos que queremos restaurar.
 
 ![Selección de Rempazo](/img/12.jpg)
 
-Selecionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el miercoles.
+Selecionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el miércoles.
 
 ![Selección de Backup2](/img/13.jpg)
 
-Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad encripta las copias de seguridad.
+Escribimos la contraseña ya que pusimos una opción que por temas de seguridad encripta las copias de seguridad.
 
 ![Contraseña](/img/9.jpg)
 
-Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
+Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
 
 ![Selección de Archivos2](/img/14.jpg)
 
-Selecionaremos donde se restauraran los archivos.
+Seleccionaremos donde se restauraran los archivos.
 
 ![Selección de destino](/img/11.jpg)
 
-Selecionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el jueves.
+Seleccionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el jueves.
 
 ![Selección de Backup3](/img/15.jpg)
 
-Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad encripta las copias de seguridad.
+Escribimos la contraseña ya que pusimos una opción que por temas de seguridad encripta las copias de seguridad.
 
 ![Contraseña](/img/9.jpg)
 
-Selecionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
+Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
 
 ![Selección de Archivos3](/img/16.jpg)
 
-Y por ultimo como se puede ver en la siguientes imagenes se recupero los archivos que se borraron y modificaron erroneamente.
+Y por último como se puede ver en la siguientes imagenes se recupero los archivos que se borraron y modificaron erroneamente.
 
 ![Resultado Final](/img/17.jpg)
 
@@ -89,11 +89,11 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
 
 ## Volumen Simple
 
-Para crear un Volumen Simple en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos el tamaño del volumen.
+Para crear un Volumen Simple en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y seleccionaremos el tamaño del volumen.
 
 ![Tamaño Simple](/img/19.jpg)
 
-A continuación selecionaremos la letra que se asignara al Volumen.
+A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Simple](/img/20.jpg)
 
@@ -105,7 +105,7 @@ Al final de la configuración pondra un resumen de la configuracion selecionada.
 
 ![Final Simple](/img/22.jpg)
 
-Y por ultimo añadiremos Datos al Volumen.
+Y por último añadiremos Datos al Volumen.
 
 ![Añadir Datos](/img/35.jpg)
 
