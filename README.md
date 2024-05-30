@@ -25,31 +25,31 @@ Simulamos los siguientes escenarios:
 
    - El jueves borramos erróneamente otroFichero1.jpg y creamos los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
-Para restaurar una backup iremos a la pestaña de restore backup y seleccionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archivos en especifico ya que sabemos que archivos se modificaron erroneamente.
+Para restaurar una backup iremos a la pestaña de restore backup y seleccionaremos que tipo de restauración queremos hacer que en nuestro caso será de archivos en específico ya que sabemos que archivos se modificaron erróneamente.
 
 ![Selección de tipo Backup](/img/7.jpg)
 
-Seleccionamos la carpeta del domingo para poder recuperar los archivos que se modificaron erroneamente el lunes.
+Seleccionamos la carpeta del domingo para poder recuperar los archivos que se modificaron erróneamente el lunes.
 
 ![Selección de Backup1](/img/8.jpg)
 
-Escribimos la contraseña ya que pusimos una opcion que por temas de seguridad encripta las copias de seguridad.
+Escribimos la contraseña ya que pusimos una opción que por temas de seguridad encripta las copias de seguridad.
 
 ![Contraseña](/img/9.jpg)
 
-Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erroneamente y cuando fue esa modificación.
+Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se modificaron erróneamente y cuando fue esa modificación.
 
 ![Selección de Archivos1](/img/10.jpg)
 
-Seleccionaremos donde se restauraran los archivos.
+Seleccionaremos donde se restaurarán los archivos.
 
 ![Selección de destino](/img/11.jpg)
 
 Debido a que los archivos que se modificaron no se eliminaron nos saldrá que eses archivos ya se encuentran en ese directorio por lo que tendremos que seleccionar la opción de apply for all para que se aplique la opción de replace a todos los archivos que queremos restaurar.
 
-![Selección de Rempazo](/img/12.jpg)
+![Selección de Reemplazo](/img/12.jpg)
 
-Selecionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el miércoles.
+Seleccionamos la carpeta del martes para poder recuperar los archivos que se modificaron erróneamente el miércoles.
 
 ![Selección de Backup2](/img/13.jpg)
 
@@ -57,15 +57,15 @@ Escribimos la contraseña ya que pusimos una opción que por temas de seguridad 
 
 ![Contraseña](/img/9.jpg)
 
-Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
+Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erróneamente y cuando fue esa modificación.
 
 ![Selección de Archivos2](/img/14.jpg)
 
-Seleccionaremos donde se restauraran los archivos.
+Seleccionaremos donde se restaurarán los archivos.
 
 ![Selección de destino](/img/11.jpg)
 
-Seleccionamos a carpeta del martes para poder recumerar los archivos que se modificaron erroneamente el jueves.
+Seleccionamos la carpeta del martes para poder recuperar los archivos que se modificaron erróneamente el jueves.
 
 ![Selección de Backup3](/img/15.jpg)
 
@@ -73,11 +73,11 @@ Escribimos la contraseña ya que pusimos una opción que por temas de seguridad 
 
 ![Contraseña](/img/9.jpg)
 
-Seleccionamos los archivos que queremos recuperar ya que sabemos cuales fueron los que se eliminaron erroneamente y cuando fue esa modificación.
+Seleccionamos los archivos que queremos recuperar ya que sabemos cuáles fueron los que se eliminaron erróneamente y cuando fue esa modificación.
 
 ![Selección de Archivos3](/img/16.jpg)
 
-Y por último como se puede ver en la siguientes imagenes se recupero los archivos que se borraron y modificaron erroneamente.
+Y por último como se puede ver en la siguientes imágenes se recupero los archivos que se borraron y modificaron erróneamente.
 
 ![Resultado Final](/img/17.jpg)
 
@@ -97,11 +97,11 @@ A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Simple](/img/20.jpg)
 
-Selecionaremos que formato en el que queremos formatear el volumen.
+Seleccionaremos qué formato en el que queremos formatear el volumen.
 
 ![Formateo Simple](/img/21.jpg)
 
-Al final de la configuración pondra un resumen de la configuración selecionada.
+Al final de la configuración pondrá un resumen de la configuración seleccionada.
 
 ![Final Simple](/img/22.jpg)
 
@@ -111,7 +111,7 @@ Y por último añadiremos Datos al Volumen.
 
 ## Volumen Distribuido
 
-Para crear un Volumen Distribuido en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y seleccionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+Para crear un volumen Distribuido en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y seleccionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
 
 ![Tamaño Distribuido](/img/23.jpg)
 
@@ -119,7 +119,7 @@ A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Distribuido](/img/24.jpg)
 
-Seleccionaremos que formato en el que queremos formatear el volumen.
+Seleccionaremos qué formato en el que queremos formatear el volumen.
 
 ![Formateo Distribuido](/img/25.jpg)
 
@@ -133,15 +133,15 @@ Y por último añadiremos Datos al Volumen.
 
 ## Volumen Seccionado
 
-Para crear un Volumen Seccionado en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y selecionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
+Para crear un Volumen Seccionado en el administrador de discos daremos click derecho al disco donde queramos crear el volumen y seleccionaremos los discos y los tamaños de cada disco que se le van a asignar al volumen.
 
 ![Tamaño Seccionado](/img/27.jpg)
 
-A continuación selecionaremos la letra que se asignará al Volumen.
+A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Seccionado](/img/28.jpg)
 
-Selecionaremos que formato en el que queremos formatear el volumen.
+Seleccionaremos qué formato en el que queremos formatear el volumen.
 
 ![Formateo Seccionado](/img/29.jpg)
 
@@ -149,7 +149,7 @@ Al final de la configuración pondrá un resumen de la configuración selecciona
 
 ![Final Seccionado](/img/30.jpg)
 
-Y por ultimo añadiremos Datos al Volumen.
+Y por último añadiremos Datos al Volumen.
 
 ![Añadir Datos](/img/35.jpg)
 
@@ -163,11 +163,11 @@ A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Reflejado](/img/32.jpg)
 
-Seleccionaremos que formato en el que queremos formatear el volumen.
+Seleccionaremos qué formato en el que queremos formatear el volumen.
 
 ![Formateo Reflejado](/img/33.jpg)
 
-Al final de la configuración pondra un resumen de la configuración seleccionada.
+Al final de la configuración pondrá un resumen de la configuración seleccionada.
 
 ![Final Reflejado](/img/34.jpg)
 
@@ -175,9 +175,9 @@ Y por último añadiremos Datos al Volumen.
 
 ![Añadir Datos](/img/35.jpg)
 
-## Comportamiento de los RAIDs despues del fallo de un disco
+## Comportamiento de los RAIDs después del fallo de un disco
 
-Tras un fallo de en un disco el administrador de discos tendrá un error en los volumenes a excepción del Volumen Simple y ya no aparecera ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imágenes y en la tabla a continuación.
+Tras un fallo de en un disco el administrador de discos tendrá un error en los volúmenes a excepción del Volumen Simple y ya no aparecerá ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imágenes y en la tabla a continuación.
 
 ![Discos Fallo1](/img/36.jpg)
 
@@ -185,8 +185,8 @@ Tras un fallo de en un disco el administrador de discos tendrá un error en los 
 
 |   | Simple   | Distribuido   | Seccionado   | Reflejado   |
 | ------- | -------- | -------- | -------- | -------- |
-| Disponibilidad de la informacion  |  Si    |    No   |    No   |     Si    |
-|  Velocidad   | Normal |  Doble de rapido (aprox) |  Doble de rapido (aprox) | Normal |
+| Disponibilidad de la información  |  Si    |    No   |    No   |     Si    |
+|  Velocidad   | Normal |  Doble de rápido (aprox) |  Doble de rápido (aprox) | Normal |
 | Comportamiento |  No es un RAID   |   RAID 0: porque divide la información entre los dos discos  |   RAID 0: porque divide la información entre los dos discos    |    RAID 1: realiza una copia exacta de la información en el segundo disco   | 
 
 
@@ -196,45 +196,45 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
 
 ## RAID 0
 
-Lo primero que tendremos que hacer es usar el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb y sdc.
+Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb y sdc.
 
 ![Ver Discos](/img/38.jpg)
 
-A continuacion ya sabiendo el nombre de los discos ejecutaremos el comando mostrado acontinuación donde despues de --create /dev/ pondremos el nombre que queremos utilizar en el raid, despues de --level= pondremos el nivel del raid que en este caso es 0 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
+A continuación ya sabiendo el nombre de los discos ejecutaremos el comando mostrado a continuación donde después de --create /dev/ pondremos el nombre que queremos utilizar en el raid, después de --level= pondremos el nivel del raid que en este caso es 0 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontrar en el paso anterior.
 
       mdadm --create /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
 
 ![Crear RAID](/img/39.jpg)
 
-Despues Formatearemos el disco en NTFS.
+Después Formateamos el disco en NTFS.
 
 ![Formateo Disco](/img/43.jpg)
 
-Le añadimos la informacion que queramos guardar en el RAID.
+Le añadimos la información que queramos guardar en el RAID.
 
 ![Añadir Datos](/img/40.jpg)
 
-Y al fallar un disco al ser un RAID 0 habremos perdido la información almacenada en el.
+Y al fallar un disco al ser un RAID 0 habremos perdido la información almacenada en él.
 
 ![Fallo Disco](/img/41.jpg)
 
 ## RAID 1
 
-Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb y sdc.
+Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb y sdc.
 
 ![Ver Discos](/img/38.jpg)
 
-A continuacion ya sabiendo el nombre de los discos ejecutaremos el comando mostrado acontinuación donde despues de --create /dev/ pondremos el nombre que queremos utilizar en el raid, despues de --level= pondremos el nivel del raid que en este caso es 1 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
+A continuación ya sabiendo el nombre de los discos ejecutaremos el comando mostrado a continuación donde después de --create /dev/ pondremos el nombre que queremos utilizar en el raid, después de --level= pondremos el nivel del raid que en este caso es 1 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontrar en el paso anterior.
 
       mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
 
 ![Crear RAID](/img/42.jpg)
 
-Despues Formatearemos el disco en NTFS.
+Después Formateamos el disco en NTFS.
 
 ![Formateo Disco](/img/43.jpg)
 
-Le añadimos la informacion que queramos guardar en el RAID.
+Le añadimos la información que queramos guardar en el RAID.
 
 ![Añadir Datos](/img/44.jpg)
 
@@ -242,32 +242,34 @@ Y al fallar un disco al ser un RAID 1 podremos continuar accediendo a la informa
 
 ## RAID 5
 
-Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb, sdc y sdd.
+Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asignó a los discos que como podemos ver en la imagen son sdb, sdc y sdd.
 
 ![Ver Discos](/img/38.jpg)
 
-A continuacion ya sabiendo el nombre de los discos ejecutaremos el comando mostrado acontinuación donde despues de --create /dev/ pondremos el nombre que queremos utilizar en el raid, despues de --level= pondremos el nivel del raid que en este caso es 5 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
+A continuación ya sabiendo el nombre de los discos ejecutaremos el comando mostrado a continuación donde después de --create /dev/ pondremos el nombre que queremos utilizar en el raid, después de --level= pondremos el nivel del raid que en este caso es 5 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
 
       sudo mdadm -C /dev/md0 -l raid5 -n 3 /dev/sd[b-d]1
 
 ![Añadir Datos](/img/45.jpg)
 
-Despues Formatearemos el disco en NTFS.
+Después Formateamos el disco en NTFS.
 
 ![Añadir Datos](/img/46.jpg)
 
-Le añadimos la informacion que queramos guardar en el RAID.
+Le añadimos la información que queramos guardar en el RAID.
 
 ![Añadir Datos](/img/47.jpg)
 
 Y al fallar un disco al ser un RAID 5 podremos continuar accediendo a la información almacenada.
 
-## Comportamiento de los RAIDs despues del fallo de un disco
+## Comportamiento de los RAIDs después del fallo de un disco
 
 
 |   | RAID 0  | RAID 1   | RAID 5  | 
 | ------- | -------- | -------- | -------- |
-| Disponibilidad de la informacion  | No  |   Si   |   Si  |
+| Disponibilidad de la información  | No  |   Si   |   Si  |
 | Discos necesarios   | 2 discos mínimo |  2 discos mínimo (en pares) |  3 discos mínimo  | 
 | Espacio disponible |  100%  | 50% | 66%  |
 | Tolerancia de fallo |  No   |   Si, 1 disco  |  Si, 1 disco  |
+
+
