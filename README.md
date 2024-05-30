@@ -12,6 +12,9 @@ La política que decidimos aplicar será diaria y comenzaría a las 10 de la noc
 ![Selección de Contraseña](/img/6.jpg)
 
 
+
+
+## Restauración de Backups
 Simulamos los siguientes escenarios:
 
    - El lunes modificamos erróneamente el fichero1.txt y fichero2.txt y se creamos los ficheros fichero3.txt y fichero4.txt
@@ -22,7 +25,6 @@ Simulamos los siguientes escenarios:
 
    - El jueves borramos erróneamente otroFichero1.jpg y creamos los ficheros ficheroLog3.txt y ficheroLog4.txt (directorio Logs)
 
-## Restauración de Backups
 Para restaurar una backup iremos a la pestaña de restore backup y selecionaremos que tipo de restauracion queremos hacer que en nuestro caso sera de archivos en especifico ya que sabemos que archivos se modificaron erroneamente.
 
 ![Selección de tipo Backup](/img/7.jpg)
