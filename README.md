@@ -159,7 +159,7 @@ Para crear un Volumen Reflejado en el administrador de discos daremos click dere
 
 ![Tamaño Reflejado](/img/31.jpg)
 
-A continuación selecionaremos la letra que se asignara al Volumen.
+A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Reflejado](/img/32.jpg)
 
@@ -167,17 +167,17 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Reflejado](/img/33.jpg)
 
-Al final de la configuración pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondra un resumen de la configuración seleccionada.
 
 ![Final Reflejado](/img/34.jpg)
 
-Y por ultimo añadiremos Datos al Volumen.
+Y por último añadiremos Datos al Volumen.
 
 ![Añadir Datos](/img/35.jpg)
 
 ## Comportamiento de los RAIDs despues del fallo de un disco
 
-Tras un fallo de en un disco el administrador de discos tendra un error en los volumenes a excepción del Volumen Simple y ya no aparecera ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imagenes y en la tabla a continuación.
+Tras un fallo de en un disco el administrador de discos tendrá un error en los volumenes a excepción del Volumen Simple y ya no aparecera ni el volumen Distribuido ni el Volumen Seccionado en el administrador de archivos como podemos ver en las imágenes y en la tabla a continuación.
 
 ![Discos Fallo1](/img/36.jpg)
 
