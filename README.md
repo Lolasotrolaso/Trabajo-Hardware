@@ -204,36 +204,52 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
 
 ## RAID 0
 
+Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb y sdc.
+
 ![Ver Discos](/img/38.jpg)
 
-![Crear RAID](/img/39.jpg)
-
-![Formateo Disco](/img/43.jpg)
-
-![Añadir Datos](/img/40.jpg)
-
-![Fallo Disco](/img/41.jpg)
+A continuacion ya sabiendo el nombre de los discos ejecutaremos el comando mostrado acontinuación donde despues de --create /dev/ pondremos el nombre que queremos utilizar en el raid, despues de --level= pondremos el nivel del raid que en este caso es 0 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
 
       mdadm --create /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
 
-## RAID 1
+![Crear RAID](/img/39.jpg)
 
-![Ver Discos](/img/38.jpg)
-
-![Crear RAID](/img/42.jpg)
+Despues Formatearemos el disco en NTFS.
 
 ![Formateo Disco](/img/43.jpg)
 
-![Añadir Datos](/img/44.jpg)
+Le añadimos la informacion que queramos guardar en el RAID.
 
-![Fallo Disco](/img/45.jpg)
+![Añadir Datos](/img/40.jpg)
+
+Y al fallar un disco al ser un RAID 0 habremos perdido la información almacenada en el.
+
+![Fallo Disco](/img/41.jpg)
+
+## RAID 1
+
+Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb y sdc.
+
+![Ver Discos](/img/38.jpg)
+
+A continuacion ya sabiendo el nombre de los discos ejecutaremos el comando mostrado acontinuación donde despues de --create /dev/ pondremos el nombre que queremos utilizar en el raid, despues de --level= pondremos el nivel del raid que en este caso es 1 y por ultimo despues de --raid-devices= pondremos la cantidad de discos que queremos utilizar en el raid y sus ubicaciones en el sistema que las podemos encontar en el paso anterior.
 
       mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
 
+![Crear RAID](/img/42.jpg)
+
+Despues Formatearemos el disco en NTFS.
+
+![Formateo Disco](/img/43.jpg)
+
+Le añadimos la informacion que queramos guardar en el RAID.
+
+![Añadir Datos](/img/44.jpg)
+
+Y al fallar un disco al ser un RAID 1 podremos continuar accediendo a la información almacenada.
+
 ## RAID 5
 
-      mdadm --create /dev/md0 --level=5 --raid-devices=2 /dev/sdb /dev/sdc /dev/sdd
-      o
       sudo mdadm -C /dev/md0 -l raid5 -n 3 /dev/sd[b-d]1
 
 ## Comportamiento de los RAIDs despues del fallo de un disco
