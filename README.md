@@ -1,16 +1,3 @@
-# Política de backup Windows
-1. Realiza los siguientes apartados relativos a Copia de Seguridad en Windows,
-documentando los apartados d y f:
-
-d. Diseña y configura en “Paragon Backup & Recovery Community Edition” una
-política de backup que te permita mantener copia de seguridad diaria
-de todo el contenido del directorio “DatosBackup”, teniendo en cuenta
-las recomendaciones estudiadas en clase (optimizar el espacio dedicado
-a copias y reducir el tiempo entre copias). Habrá que programar la
-ejecución de diferentes tipos de copia de seguridad. Indica de forma 
-esquemática o empleando una tabla la política de backup que has
-diseñado. Justifica el por qué de cada copia y su frecuencia.
-
 ## Creacion de Backups y Política de Backups
 Para poder realizar las copias y su restauración, primero creamos nuestra carpeta DatosBackup y añadimos los ficheros con los que trabajaremos. Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
 
