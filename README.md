@@ -12,7 +12,7 @@ esquemática o empleando una tabla la política de backup que has
 diseñado. Justifica el por qué de cada copia y su frecuencia.
 
 ## Creacion de Backups
-Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
+Para poder realizar las copias y su restauración, primero creamos nuestra carpeta DatosBackup y añadimos los ficheros con los que trabajaremos. Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
 
 ![Selección de Origen1](/img/1.jpg)
 ![Selección de Origen2](/img/2.jpg)
@@ -25,9 +25,9 @@ La política que decidimos aplicar será diaria y comenzaría a las 10 de la noc
 ![Selección de Contraseña](/img/6.jpg)
 
 
-e. Simula los siguientes escenarios:
+Simulamos los siguientes escenarios:
 
-   - El lunes se modificaron erróneamente fichero1.txt y fichero2.txt y se crearon los ficheros fichero3.txt y fichero4.txt
+   - El lunes modificamos erróneamente el fichero1.txt y fichero2.txt y se crearon los ficheros fichero3.txt y fichero4.txt
 
    - El martes se creó el fichero5.txt
 
