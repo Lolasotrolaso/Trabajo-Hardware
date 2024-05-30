@@ -115,7 +115,7 @@ Para crear un Volumen Distribuido en el administrador de discos daremos click de
 
 ![Tamaño Distribuido](/img/23.jpg)
 
-A continuación selecionaremos la letra que se asignará al Volumen.
+A continuación seleccionaremos la letra que se asignará al Volumen.
 
 ![Letra Distribuido](/img/24.jpg)
 
@@ -123,7 +123,7 @@ Seleccionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Distribuido](/img/25.jpg)
 
-Al final de la configuración pondra un resumen de la configuración seleccionada.
+Al final de la configuración pondrá un resumen de la configuración seleccionada.
 
 ![Final Distribuido](/img/26.jpg)
 
@@ -137,7 +137,7 @@ Para crear un Volumen Seccionado en el administrador de discos daremos click der
 
 ![Tamaño Seccionado](/img/27.jpg)
 
-A continuación selecionaremos la letra que se asignara al Volumen.
+A continuación selecionaremos la letra que se asignará al Volumen.
 
 ![Letra Seccionado](/img/28.jpg)
 
@@ -145,7 +145,7 @@ Selecionaremos que formato en el que queremos formatear el volumen.
 
 ![Formateo Seccionado](/img/29.jpg)
 
-Al final de la configuración pondra un resumen de la configuracion selecionada.
+Al final de la configuración pondrá un resumen de la configuración seleccionada.
 
 ![Final Seccionado](/img/30.jpg)
 
