@@ -196,7 +196,7 @@ En este apartado crearemos RAIDs y comprobaremos que pasa si falla un disco que 
 
 ## RAID 0
 
-Lo primero que tendremos que hacer es con el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb y sdc.
+Lo primero que tendremos que hacer es usar el comando lsblk para poder ver el nombre que el sistema asigno a los discos que como podemos ver en la imagen son sdb y sdc.
 
 ![Ver Discos](/img/38.jpg)
 
