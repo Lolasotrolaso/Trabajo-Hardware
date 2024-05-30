@@ -1,3 +1,5 @@
+# Trabajo UD7
+
 ## Creación de Backups y Política de Backups
 Para poder realizar las copias y su restauración, primero creamos nuestra carpeta DatosBackup y añadimos los ficheros con los que trabajaremos. Las copias para la práctica las hemos guardado en el escritorio de la propia máquina, pero se deberían guardar en un medio externo para mayor seguridad. 
 
